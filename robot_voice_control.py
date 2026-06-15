@@ -77,23 +77,6 @@ LABELS = {
 }
 
 # ─────────────────────────────────────────────
-# OBSŁUGA ROBOTA
-# (tutaj podpinasz Serial / Socket / Bluetooth)
-# ─────────────────────────────────────────────
-
-def send_command(action: str):
-    """
-    Wyślij komendę do robota.
-
-    Na razie tylko print — zamień na np.:
-        serial_port.write(f"{action}\\n".encode())   # Serial/USB
-        sock.sendall(f"{action}\\n".encode())        # WiFi/Socket
-    """
-    timestamp = datetime.now().strftime("%H:%M:%S")
-    label = LABELS.get(action, action.upper())
-    print(f"  [{timestamp}]  KOMENDA → {label}")
-
-# ─────────────────────────────────────────────
 # ROZPOZNAWANIE KOMEND
 # ─────────────────────────────────────────────
 
