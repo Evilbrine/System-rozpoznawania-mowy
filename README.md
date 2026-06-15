@@ -2,11 +2,11 @@
 System rozpoznawania mowy do projektu inżynierskiego
 
 Wymagania (instalacja):
-    pip install vosk sounddevice
+- pip install vosk sounddevice
 
 Model języka polskiego (pobierz i wypakuj):
-    https://alphacephei.com/vosk/models/vosk-model-small-pl-0.22.zip
-    Wypakuj do folderu "model" obok tego skryptu.
+- https://alphacephei.com/vosk/models/vosk-model-small-pl-0.22.zip
+- Wypakuj obok skryptu do folderu "model" (w folderze model mają się znajdować foldery "am", "conf", "graph" oraz "ivector").
 
 Użycie:
     python robot_voice_control.py
