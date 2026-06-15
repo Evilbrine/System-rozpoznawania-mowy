@@ -1,5 +1,5 @@
 # System-rozpoznawania-mowy
-System rozpoznawania mowy do projektu inżynierskiego
+System rozpoznawania mowy do projektu inżynierskiego. Na chwilę obecną działa w terminalu.
 
 Wymagania (instalacja):
 - pip install vosk sounddevice
