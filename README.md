@@ -9,9 +9,9 @@ Model języka polskiego (pobierz i wypakuj):
 - Wypakuj obok skryptu do folderu "model" (w folderze model mają się znajdować foldery "am", "conf", "graph" oraz "ivector").
 
 Użycie:
-    python robot_voice_control.py
+- python robot_voice_control.py
 
 Opcje:
-    python robot_voice_control.py --model /ścieżka/do/modelu
-    python robot_voice_control.py --device 1        # numer mikrofonu
-    python robot_voice_control.py --list-devices    # lista mikrofonów
+- python robot_voice_control.py --model /ścieżka/do/modelu
+- python robot_voice_control.py --device 1        # numer mikrofonu
+- python robot_voice_control.py --list-devices    # lista mikrofonów
